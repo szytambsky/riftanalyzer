@@ -14,14 +14,14 @@ updates:
       timezone: "UTC"
     labels: ["dependencies", "backend"]
     commit-message:
-    prefix: "chore(deps-be)"
+      prefix: "chore(deps-be)"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
     labels: ["dependencies", "frontend"]
     commit-message:
-    prefix: "chore(deps-fe)"
+      prefix: "chore(deps-fe)"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
