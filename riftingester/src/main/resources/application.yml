@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: riftingester
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/riftingester}
+    username: ${DATABASE_USERNAME:riftingester}
+    password: ${DATABASE_PASSWORD:riftingester}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
